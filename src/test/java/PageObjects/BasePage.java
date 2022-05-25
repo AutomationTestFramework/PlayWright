@@ -1,4 +1,4 @@
-package pageobjects;
+package PageObjects;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;

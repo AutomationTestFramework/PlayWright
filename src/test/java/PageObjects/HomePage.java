@@ -1,4 +1,4 @@
-package pageobjects;
+package PageObjects;
 
 public class HomePage {
 

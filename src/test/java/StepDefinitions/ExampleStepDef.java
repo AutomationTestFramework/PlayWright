@@ -5,8 +5,8 @@ import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.Page;
 import cucumber.api.java.en.When;
 import org.json.simple.parser.ParseException;
-import pageobjects.BasePage;
-import pageobjects.HomePage;
+import PageObjects.BasePage;
+import PageObjects.HomePage;
 import utils.JsonParser;
 
 import java.io.IOException;
