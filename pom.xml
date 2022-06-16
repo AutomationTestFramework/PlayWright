@@ -38,8 +38,22 @@
             <artifactId>mail</artifactId>
             <version>1.4.7</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.1.0</version>
+        </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/AutomationTestFramework/PlayWright</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
