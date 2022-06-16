@@ -14,8 +14,8 @@ public class Jira {
         System.out.println("Welcome");
         RestAssured.baseURI = "https://issues.sonatype.org/secure/Dashboard.jspa";
         PreemptiveBasicAuthScheme authScheme = new PreemptiveBasicAuthScheme();
-        authScheme.setUserName("nikhil.jain");
-        authScheme.setPassword("Sonatype@1234");
+        authScheme.setUserName("testuser");
+        authScheme.setPassword("testpassword");
         RestAssured.authentication = authScheme;
 //        getterSetter values=new getterSetter();
 //        values.setProject(13204);
